@@ -1,7 +1,7 @@
 /**
  * Uhr (Uhrwerk).
  */
-package kap12;
+package entwurfsmuster_uhrKreise;
 
 /**
  * @author clecon
@@ -74,7 +74,7 @@ public class UhrKreise extends JFrame {
 	}	
 		
 	public void paint(Graphics g) {
-		g.clearRect(0, 0, BREITE, HÖHE);
+		g.clearRect(0, 0, BREITE, HOEHE);
 		zeichneKreisLinie(g, POS_X_STUNDEN, POS_Y, GROESSE_STUNDEN_KREIS/2, FARBE_STUNDE);
 		zeichneKreisLinie(g, POS_X_MINUTEN, POS_Y, GROESSE_MINUTEN_KREIS/2, FARBE_MINUTE);
 		zeichneKreisLinie(g, POS_X_SEKUNDEN, POS_Y, GROESSE_SEKUNDEN_KREIS/2, FARBE_SEKUNDE);

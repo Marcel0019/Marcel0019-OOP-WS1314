@@ -1,7 +1,7 @@
 /**
  * Uhr (Uhrwerk).
  */
-package entwurfsmuster;
+package entwurfsmuster_uhr;
 
 /**
  * @author clecon
